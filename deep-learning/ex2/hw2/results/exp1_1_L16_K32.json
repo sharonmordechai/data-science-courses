@@ -1,0 +1,74 @@
+{
+  "config": {
+    "run_name": "exp1_1",
+    "out_dir": "results",
+    "seed": 42,
+    "device": "cuda",
+    "bs_train": 128,
+    "bs_test": 32,
+    "batches": 100,
+    "epochs": 100,
+    "early_stopping": 5,
+    "checkpoints": null,
+    "lr": 0.001,
+    "reg": 0.001,
+    "filters_per_layer": [
+      32
+    ],
+    "pool_every": 2,
+    "hidden_dims": [
+      1024
+    ],
+    "model_type": "cnn",
+    "activation_type": "relu",
+    "pooling_type": "max",
+    "pooling_params": {
+      "kernel_size": 2,
+      "padding": 1
+    },
+    "conv_params": {
+      "kernel_size": 3,
+      "padding": 1
+    },
+    "activation_params": {},
+    "batchnorm": true,
+    "dropout": 0.1,
+    "kw": {},
+    "layers_per_block": 16
+  },
+  "results": {
+    "num_epochs": 0,
+    "train_loss": [
+      2.3040914130210877,
+      2.3034182476997374,
+      2.3032502579689025,
+      2.3029837369918824,
+      2.3030352091789243,
+      2.302902166843414
+    ],
+    "train_acc": [
+      9.7578125,
+      10.046875,
+      9.546875,
+      10.4921875,
+      10.0546875,
+      9.84375
+    ],
+    "test_loss": [
+      2.302148241996765,
+      2.303356556892395,
+      2.3032116365432738,
+      2.303478088378906,
+      2.30254065990448,
+      2.302629551887512
+    ],
+    "test_acc": [
+      10.5625,
+      10.78125,
+      10.1875,
+      10.0,
+      10.5625,
+      9.8125
+    ]
+  }
+}
