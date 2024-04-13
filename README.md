@@ -11,4 +11,4 @@ M.Sc. Courses in Data Science, including Machine Learning, Deep Learning, Statis
 * **Statistics and Data Analysis** assignments, performing statistics computations on research data and inferring significant conclusions. Includes hypothesis models (p-values), correlations, confidence intervals, False discovery rate (FDR) corrections, distributions, etc.
 
 ### Recommendation Systems
-* **Recommendation Systems** assignments, cover Collaborative Filtering, Content-Based, Matrix Factorization (MF), Multi layer perceptron (MLP), Generalized Matrix Factorization (GMF), Neuro Matrix Factorization (NMF). 
+* **Recommendation Systems** assignments, cover Collaborative Filtering, Content-Based, Matrix Factorization (MF), Multi layer perceptron (MLP), Generalized Matrix Factorization (GMF), Neuro Matrix Factorization (NMF).
